@@ -1,12 +1,23 @@
 {
   "name": "card_matching_memory_game",
-  "version": "1.0.0",
-  "description": "Project Description",
+  "version": "0.0.1",
+  "description": "Simple memory app to demo Express stack",
+  "main": "server.js",
   "scripts": {
-    "start": "serve",
+    "start": "node server.js"
   },
   "dependencies": {
-    "serve": "^10.0.1"
+    "express": "^5.0.0-alpha.2"
   },
-  "author": "me"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Thinkful-Ed/hyper-dev-counter-example"
+  },
+  "keywords": [
+    "thinkful",
+    "node",
+    "hyperdev",
+    "express"
+  ],
+  "license": "MIT"
 }

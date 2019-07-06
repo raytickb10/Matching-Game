@@ -86,7 +86,7 @@ function Card(number, board) {
  
 function generateCards(board) {
   var cards = [];
-  for (var i = 0; i < 16; i++) {
+  for (var i = 0; i < 18; i++) {
     cards.push(new Card((Math.floor(i / 2) + 1), board));
   }
   return _.shuffle(cards);
@@ -101,7 +101,7 @@ function BoardModel(theme) {
   this.firstCard = null;
   this.secondCard = null;
   this.message = ko.observable("Try to find two cards with the same image...");
-  this.pairsLeft = 8;
+  this.pairsLeft = 9;
   
   this.hideTimeout = null;
   this.elapsedInterval = null;

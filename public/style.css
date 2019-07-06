@@ -5,7 +5,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 25px;
-  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2Fgreen_background.jpg?v=1562398119468);
+  background-image: url(green_background.jpg);
   color: black;
 }
 
@@ -95,35 +95,35 @@ textarea {
 }
 
 .card1 {
-  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2Face_of_spades.png?v=1562396423344);
+  background-image: url(ace_of_spades.png);
 }
 .card2 {
-  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2Fking_of_clubs.png?v=1562396426372);
+  background-image: url(king_of_clubs.png);
 }
 .card3 {
-  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2Fqueen_of_hearts.png?v=1562395943785);
+  background-image: url(queen_of_hearts.png);
 }
 .card4 {
-  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2Fjack_of_diamonds.png?v=1562396425064);
+  background-image: url(jack_of_diamonds.png);
 }
 .card5 {
-  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2F10_of_spades.png?v=1562396428146);
+  background-image: url(10_of_spades.png);
 }
 .card6 {
-  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2F9_of_hearts.png?v=1562396429916);
+  background-image: url(9_of_hearts.png);
 }
 .card7 {
-  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2F8_of_diamonds.png?v=1562396431446);
+  background-image: url(8_of_diamonds.png);
 }
 .card8 {
-  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2F7_of_clubs.png?v=1562396433298);
+  background-image: url(7_of_clubs.png);
 }
 .card9 {
-  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2Fred_joker.png?v=1562396688296);
+  background-image: url(red_joker.png);
 }
 
 .hidden {
-  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2Fcard%20back%20red.png?v=1562396821915);
+  background-image: url(card%20back%20red.png);
 }
 
 .paired {

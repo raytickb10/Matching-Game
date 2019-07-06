@@ -3,9 +3,9 @@
 }
 
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 25px;
-  background-color: white;
+  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2Fgreen_background.jpg?v=1562398119468);
   color: black;
 }
 
@@ -17,17 +17,21 @@ h1 {
   font-weight: bold;
   font-size: 48px;
   color: white;
+  text-align: center;
+  text-shadow: 1px 1px 9px black;
 }
 
 h2 {
   font-weight: bold;
   font-size: 32px;
   color: #C0C0C0;
+  text-align: center;
 }
 
 h3 {
   color: grey;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 input,
@@ -53,7 +57,8 @@ textarea {
 
 .elapsed {
   color: gold;
-  margin-left: 190px;
+  text-align: center;
+  font-size: 40px;
 }
 
 .message {
@@ -68,183 +73,104 @@ textarea {
 
 .board {
   width: 500px;
+  display: flex;
+}
+
+.rows{
+  flex: 0 0 140%;
 }
 
 .card {
-  width: 110px;
-  height: 110px;
+  width: 100px;
+  height: 150px;
   background-color: black;
   display: inline-block;
-  border-radius: 6px;
-  margin-right: 6px;
+  margin-right: 3px;
   margin-bottom: 5px;
-  border: 4px solid black;
+  border: 2px solid black;
   cursor: pointer;
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size: 98% 98%;
   background-position: center;
-  /*opacity: 1;*/
 }
 
 .card1 {
-  background-color: brown;
+  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2Face_of_spades.png?v=1562396423344);
 }
 .card2 {
-  background-color: purple;
+  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2Fking_of_clubs.png?v=1562396426372);
 }
 .card3 {
-  background-color: teal;
+  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2Fqueen_of_hearts.png?v=1562395943785);
 }
 .card4 {
-  background-color: salmon;
+  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2Fjack_of_diamonds.png?v=1562396425064);
 }
 .card5 {
-  background-color: yellow;
+  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2F10_of_spades.png?v=1562396428146);
 }
 .card6 {
-  background-color: Magenta;
+  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2F9_of_hearts.png?v=1562396429916);
 }
 .card7 {
-  background-color: green;
+  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2F8_of_diamonds.png?v=1562396431446);
 }
 .card8 {
-  background-color: lightgreen;
+  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2F7_of_clubs.png?v=1562396433298);
 }
-
-.card1cat {
-  background-image: url("https://pbs.twimg.com/profile_images/3550696043/d144ce5f545275588a45f296ebd3f027.jpeg");
-}
-
-.card2cat {
-  background-image: url("https://static-s.aa-cdn.net/img/ios/640105021/14ac96864946eed2ffe3c3b6e6a3eece?v=1");
-}
-
-.card3cat {
-  background-image: url("https://static-s.aa-cdn.net/img/ios/461572151/6bb370ca7f70def2963cc334fb4e9bbf?v=1");
-}
-
-.card4cat {
-  background-image: url("https://pbs.twimg.com/profile_images/621359695312363520/1BUuQJcq.jpg");
-}
-
-.card5cat {
-  background-image: url("https://static-s.aa-cdn.net/img/gp/20600004738603/1tqGSNrJM73z9waxWb0wehy9G3f3C5fXW62pJiylNZfxgtS0Cq_ZO7r5WiI2qjjCZnw=w300?v=1");
-}
-
-.card6cat {
-  background-image: url("http://dykn.com/wp-content/uploads/2012/07/dailyworldfacts.jpg");
-}
-
-.card7cat {
-  background-image: url("https://pbs.twimg.com/profile_images/591705916392759296/WNiT3izn.jpg");
-}
-
-.card8cat {
-  background-image: url("https://static-s.aa-cdn.net/img/ios/608437635/bc3ef706f0765b2e12ba224e82cea980?v=1");
-}
-
-.card1frozen {
-  background-image: url("http://cdn.idigitaltimes.com/sites/idigitaltimes.com/files/styles/large/public/2014/09/29/frozen.jpg");
-}
-
-.card2frozen {
-  background-image: url("http://s2.dmcdn.net/DKEGM/1280x720-XwN.jpg");
-}
-
-.card3frozen {
-  background-image: url("http://media.virbcdn.com/cdn_images/resize_1024x1365/c5/a72fec2b3510f775-Frozen_Hans_finished.jpg");
-}
-
-.card4frozen {
-  background-image: url("https://wallpaperscraft.com/image/frozen_kristoff_main_character_93147_1600x1200.jpg");
-}
-
-.card5frozen {
-  background-image: url("http://images.m-magazine.com/uploads/posts/image/45343/disney-contemporary-resort-frozen-olaf.jpg");
-}
-
-.card6frozen {
-  background-image: url("http://mlb-s1-p.mlstatic.com/personagens-disney-en-pelucias-afins-18209-MLB20152577281_082014-Y.jpg");
-}
-
-.card7frozen {
-  background-image: url("http://img3.wikia.nocookie.net/__cb20140219173000/disney/images/8/8c/Elsa-anna-frozen-e1385489889559.jpg");
-}
-
-.card8frozen {
-  background-image: url("https://s-media-cache-ak0.pinimg.com/236x/0e/de/6e/0ede6e4853720f5e1f5ce9ac64fac4ce.jpg");
-}
-
-.card1new {
-  background-image: url("http://s3.postimg.org/jmvug7n8j/12539_1128828868050_6347189_n.jpg");
-}
-
-.card2new {
-  background-image: url("http://s3.postimg.org/jmvug7n8j/12539_1128828868050_6347189_n.jpg");
-}
-
-.card3new {
-  background-image: url("http://s3.postimg.org/jmvug7n8j/12539_1128828868050_6347189_n.jpg");
-}
-
-.card4new {
-  background-image: url("http://s3.postimg.org/jmvug7n8j/12539_1128828868050_6347189_n.jpg");
-}
-
-.card5new {
-  background-image: url("http://s3.postimg.org/jmvug7n8j/12539_1128828868050_6347189_n.jpg");
-}
-
-.card6new {
-  background-image: url("http://s3.postimg.org/jmvug7n8j/12539_1128828868050_6347189_n.jpg");
-}
-
-.card7new {
-  background-image: url("http://s3.postimg.org/jmvug7n8j/12539_1128828868050_6347189_n.jpg");
-}
-
-.card8new {
-  background-image: url("http://s3.postimg.org/jmvug7n8j/12539_1128828868050_6347189_n.jpg");
-}
-
-.card1dog {
-  background-image: url("http://churchfun.com/images/wp/puppy.jpg");
-}
-
-.card2dog {
-  background-image: url("http://bretcontreras.com/wp-content/uploads/dog.jpg");
-}
-
-.card3dog {
-  background-image: url("https://s3.amazonaws.com/rapgenius/1378688959_image.jpg");
-}
-
-.card4dog {
-  background-image: url("http://www.studentsoftheworld.info/sites/animals/img/48205_220px-Shetland_Sheepdog_600.jpg");
-}
-
-.card5dog {
-  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/06/b6/1b/06b61b11424e8dbf76f9bcd41eb13681.jpg");
-}
-
-.card6dog {
-  background-image: url("http://m5.paperblog.com/i/49/496512/dog-breed-of-the-month-bernese-mountain-dog-a-L-3tMX6C.jpeg");
-}
-
-.card7dog {
-  background-image: url("http://cdn.resimkoy.net/2015/10/02/small_cutest-dog-breeds-home-dog-categories-different-cutest-dog-breeds.jpg");
-}
-
-.card8dog {
-  background-image: url("http://www.studentsoftheworld.info/sites/animals/img/48205_lakeland_terrier.jpg");
+.card9 {
+  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2Fred_joker.png?v=1562396688296);
 }
 
 .hidden {
-  background-color: black;
-  background-image: none;
+  background-image: url(https://cdn.glitch.com/1dc44aa0-da7e-487a-b8d9-1b398cc12f4e%2Fcard%20back%20red.png?v=1562396821915);
 }
 
 .paired {
   border-color: gold;
   cursor: default;
+}
+
+@media (max-width: 800px){
+  .rows{
+    flex: 0 0 100%;
+  }
+  
+  .card{
+    width: 72px;
+    height: 112px;
+  }
+}
+
+@media (max-width: 420px){
+  .board{
+    display: flex;
+    margin-left: 25px;
+  }
+  
+  .rows{
+    flex: 0 0 70%;
+  }
+  
+  .message {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  h1{
+    font-size: 30px;
+    height: 60px;
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  .elapsed{
+    margin-left: -150px;
+  }
+}
+
+@media (max-width: 376px){
+  .board{
+    margin-left: 5px;
+  }
 }
